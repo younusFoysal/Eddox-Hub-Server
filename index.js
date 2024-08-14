@@ -57,6 +57,123 @@ async function run() {
 
 
 
+        // verify Admin
+        const verifyAdmin = async (req, res, next) => {
+            console.log('hello from admin')
+            const user = req.user
+            const query = { email: user?.email }
+            const result = await usersCollection.findOne(query)
+            console.log(result?.role)
+            if (!result || result?.role !== 'admin')
+                return res.status(401).send({ message: 'unauthorized access!!' })
+            next()
+        }
+
+
+        // verify user
+        const verifyUser = async (req, res, next) => {
+            console.log('hello from User')
+            const user = req.user
+            const query = { email: user?.email }
+            const result = await usersCollection.findOne(query)
+            console.log(result?.role)
+            if (!result || result?.role !== 'user') {
+                return res.status(401).send({ message: 'unauthorized access!!' })
+            }
+
+            next()
+        }
+
+
+
+
+        // auth related api
+        app.post('/jwt', async (req, res) => {
+            const user = req.body
+            const token = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, {
+                expiresIn: '365d',
+            })
+            res
+                .cookie('token', token, {
+                    httpOnly: true,
+                    secure: process.env.NODE_ENV === 'production',
+                    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'strict',
+                })
+                .send({ success: true })
+        })
+
+        // Logout
+        app.get('/logout', async (req, res) => {
+            try {
+                res
+                    .clearCookie('token', {
+                        maxAge: 0,
+                        secure: process.env.NODE_ENV === 'production',
+                        sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'strict',
+                    })
+                    .send({ success: true })
+                console.log('Logout successful')
+            } catch (err) {
+                res.status(500).send(err)
+            }
+        })
+
+
+
+        // TODO: User DB
+        // save a user data in db
+        app.put('/user', async (req, res) => {
+            const user = req.body
+
+            const query = { email: user?.email }
+            // check if user already exists in db
+
+            const isExist = await usersCollection.findOne(query)
+            if (isExist) {
+                    // if existing user login again
+                    return res.send(isExist)
+            }
+
+            // save user for the first time
+            const options = { upsert: true }
+            const updateDoc = {
+                $set: {
+                    ...user,
+                    timestamp: Date.now(),
+                },
+            }
+            console.log(updateDoc)
+            const result = await usersCollection.updateOne(query, updateDoc, options)
+            res.send(result)
+        })
+
+        // get a user info by email from db
+        app.get('/user/:email', async (req, res) => {
+            const email = req.params.email
+            const result = await usersCollection.findOne({ email })
+            res.send(result)
+        })
+
+
+        // get all users data from db
+        app.get('/users', verifyToken, async (req, res) => {
+            const result = await usersCollection.find().toArray()
+            res.send(result)
+        })
+
+
+        //update a user role
+        app.patch('/users/update/:email', verifyToken, async (req, res) => {
+            const email = req.params.email
+            const user = req.body
+            const query = { email }
+            const updateDoc = {
+                $set: { ...user, timestamp: Date.now() },
+            }
+            console.log(updateDoc)
+            const result = await usersCollection.updateOne(query, updateDoc)
+            res.send(result)
+        })
 
 
 
