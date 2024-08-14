@@ -54,6 +54,7 @@ async function run() {
     try {
         const db = client.db('eddoxhubDB')
         const usersCollection = db.collection('users')
+        const productsCollection = db.collection('products')
 
 
 
@@ -174,6 +175,67 @@ async function run() {
             const result = await usersCollection.updateOne(query, updateDoc)
             res.send(result)
         })
+
+
+        // TODO: Products APIS
+        // Get all Products
+        app.get('/products', verifyToken, async (req, res) => {
+            try {
+                const page = parseInt(req.query.page) || 1;
+                const limit = parseInt(req.query.limit) || 15;
+                const skip = (page - 1) * limit;
+
+                const brand = req.query.brand || "";
+                const category = req.query.category || "";
+                const minPrice = parseFloat(req.query.minPrice) || 0;
+                const maxPrice = parseFloat(req.query.maxPrice) || Infinity;
+                const searchQuery = req.query.searchQuery || "";
+                const priceSort = req.query.priceSort || ""; // "asc" or "desc"
+                const dateSort = req.query.dateSort || ""; // "asc" or "desc"
+
+                // Build the filter object
+                const filter = {};
+                if (brand) {
+                    filter.brand = brand; // Add brand filter if provided
+                }
+                if (category) {
+                    filter.category = category; // Add category filter if provided
+                }
+                if (minPrice || maxPrice) {
+                    filter.price = { $gte: minPrice, $lte: maxPrice }; // Add price range filter if provided
+                }
+                if (searchQuery) {
+                    filter.name = { $regex: searchQuery, $options: "i" }; // Add search filter if provided
+                }
+
+                // Build the sort object
+                const sort = {};
+                if (priceSort) {
+                    sort.price = priceSort === "asc" ? 1 : -1; // Sort by price
+                }
+                if (dateSort) {
+                    sort.date = dateSort === "asc" ? 1 : -1; // Sort by date
+                }
+
+                const totalProducts = await productsCollection.countDocuments(filter); // Count based on filter
+                const totalPages = Math.ceil(totalProducts / limit);
+
+                const products = await productsCollection
+                    .find(filter) // Apply the filter
+                    .sort(sort) // Apply the sorting
+                    .skip(skip)
+                    .limit(limit)
+                    .toArray();
+
+                res.send({
+                    products,
+                    totalPages,
+                });
+            } catch (error) {
+                console.error('Error fetching Products:', error);
+                res.status(500).send('Error fetching Products');
+            }
+        });
 
 
 
