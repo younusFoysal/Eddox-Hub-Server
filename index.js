@@ -25,7 +25,7 @@ app.use(cookieParser())
 
 const verifyToken = async (req, res, next) => {
     const token = req.cookies?.token
-    console.log(token)
+    //console.log(token)
     if (!token) {
         return res.status(401).send({ message: 'unauthorized access' })
     }
@@ -40,6 +40,8 @@ const verifyToken = async (req, res, next) => {
 }
 
 // mongo db url
+// mongoexport --uri mongodb+srv://linux:uL3SEh3LvCDz1RuY@cluster0.q3baw43.mongodb.net/eddoxhubDB --collection products.json --type json --out products.json
+
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.q3baw43.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 const client = new MongoClient(uri, {
@@ -179,7 +181,7 @@ async function run() {
 
         // TODO: Products APIS
         // Get all Products
-        app.get('/products', verifyToken, async (req, res) => {
+        app.get('/products', async (req, res) => {
             try {
                 const page = parseInt(req.query.page) || 1;
                 const limit = parseInt(req.query.limit) || 15;
@@ -236,6 +238,14 @@ async function run() {
                 res.status(500).send('Error fetching Products');
             }
         });
+
+        // get specific product
+        app.get('/product/:id', verifyToken, async (req, res) => {
+            const id = req.params.id;
+            const query = id
+            const result = await productsCollection.findOne(query)
+            res.send(result)
+        })
 
 
 
