@@ -38,3 +38,11 @@ jsonwebtoken
 mongodb
 nodemon
 ```
+
+
+## How to Run Locally
+1. Clone the repository: `git clone https://github.com/younusFoysal/Eddox-Hub-Server.git`
+2. Navigate to the project directory: `cd Eddox-hub-Server`
+3. Install dependencies: `npm install`
+4. Set up environment variables as per `.env`.
+5. Start the server: `nodemon index.js`
