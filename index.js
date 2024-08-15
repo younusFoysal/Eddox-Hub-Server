@@ -40,8 +40,6 @@ const verifyToken = async (req, res, next) => {
 }
 
 // mongo db url
-// mongoexport --uri mongodb+srv://linux:uL3SEh3LvCDz1RuY@cluster0.q3baw43.mongodb.net/eddoxhubDB --collection products.json --type json --out products.json
-
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.q3baw43.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 const client = new MongoClient(uri, {
@@ -242,7 +240,7 @@ async function run() {
         // get specific product
         app.get('/product/:id', verifyToken, async (req, res) => {
             const id = req.params.id;
-            const query = id
+            const query = {_id: new ObjectId(id)}
             const result = await productsCollection.findOne(query)
             res.send(result)
         })

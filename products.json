@@ -1,0 +1,702 @@
+[
+  {
+  "_id": {
+    "$oid": "66bd239cf448323a467bece8"
+  },
+  "name": "A4 Tech OP-720 USB Mouse",
+  "image": "https://www.startech.com.bd/image/cache/catalog/mouse/a4tech/op-720/op-720-01-500x500.jpg",
+  "description": "The A4 Tech OP-720 is an optical mouse featuring a contoured design for improved support and control. It comes with a 1200 DPI resolution for smooth cursor movement, dust-resistant scroll wheel, and offers over 5 million clicks. The mouse includes 8 gestures to perform hotkey commands and a 4-way wheel for smart scrolling.",
+  "price": 400,
+  "brand": "A4 Tech",
+  "category": "Mouse",
+  "ratings": 3,
+  "date": "15/08/2024",
+  "time": "10:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bd239cf448323a467bece9"
+  },
+  "name": "ASUS VA249HE 23.8 inch Full HD Eye Care Monitor",
+  "image": "https://www.startech.com.bd/image/cache/catalog/monitor/asus/va249he/va249he-500x500.jpg",
+  "description": "The ASUS VA249HE is a 23.8-inch Full HD monitor with VA panel, 60Hz refresh rate, and 5ms response time. It includes HDMI and VGA ports and features eye care technology with flicker-free and low blue light modes.",
+  "price": 20250,
+  "brand": "ASUS",
+  "category": "Monitor",
+  "ratings": 4,
+  "date": "16/08/2024",
+  "time": "10:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bd239cf448323a467becea"
+  },
+  "name": "Canon CanoScan LiDE 300 Flatbed Scanner",
+  "image": "https://www.startech.com.bd/image/cache/catalog/scanner/canon/lide-300/lide-300-500x500.jpg",
+  "description": "The Canon CanoScan LiDE 300 is a flatbed scanner that offers a 2400 x 2400 dpi resolution, 10-second scanning speed, and USB 2.0 connectivity. It’s perfect for home and office use, providing high-quality scanning for documents and photos.",
+  "price": 8000,
+  "brand": "Canon",
+  "category": "Scanner",
+  "ratings": 4,
+  "date": "17/08/2024",
+  "time": "10:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bd239cf448323a467beceb"
+  },
+  "name": "JBL Tune T290 In-Ear Earphone",
+  "image": "https://www.startech.com.bd/image/cache/catalog/earphone/jbl/t290/t290-01-500x500.webp",
+  "description": "The JBL Tune T290 features a 3.5mm plug, one-button remote with mic, and 9mm drivers for powerful sound. The earphones provide a comfortable fit with a tangle-free flat cable.",
+  "price": 1250,
+  "brand": "JBL",
+  "category": "Earphone",
+  "ratings": 4,
+  "date": "18/08/2024",
+  "time": "10:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bd239cf448323a467becec"
+  },
+  "name": "HP LaserJet Pro MFP M26nw Printer",
+  "image": "https://www.startech.com.bd/image/cache/catalog/printer/hp-printer/m404dn/m404dn-001-500x500.jpg",
+  "description": "The HP LaserJet Pro MFP M26nw is a compact multifunction printer with wireless printing capability. It features a 600 x 600 dpi resolution and offers print, scan, and copy functions, making it ideal for small office environments.",
+  "price": 16500,
+  "brand": "HP",
+  "category": "Printer",
+  "ratings": 4,
+  "date": "18/08/2024",
+  "time": "10:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bd239cf448323a467beced"
+  },
+  "name": "Fujitsu ScanSnap iX1600 Scanner",
+  "image": "https://www.startech.com.bd/image/cache/catalog/scanner/fujitsu/fi-7460/fi-7460-500x500.webp",
+  "description": "The Fujitsu ScanSnap iX1600 is a powerful document scanner that offers wireless connectivity, automatic image cropping, and a 600 dpi resolution. It’s designed for quick and efficient document management.",
+  "price": 60000,
+  "brand": "Fujitsu",
+  "category": "Scanner",
+  "ratings": 5,
+  "date": "19/08/2024",
+  "time": "10:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613862c"
+  },
+  "name": "Asus TUF Gaming VG249Q3A 24'' Full HD 180Hz IPS Gaming Monitor",
+  "image": "https://www.startech.com.bd/image/cache/catalog/monitor/asus/vg249q3a/tuf-gaming-vg249q3a-500x500.webp",
+  "description": "The Asus TUF Gaming VG249Q3A is a 24-inch Full HD gaming monitor featuring a 180Hz refresh rate, 1ms response time, and IPS panel. It supports Adaptive-Sync and is perfect for competitive gaming.",
+  "price": 26500,
+  "brand": "Asus",
+  "category": "Monitor",
+  "ratings": 5,
+  "date": "20/08/2024",
+  "time": "10:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613862d"
+  },
+  "name": "Epson EcoTank L3210 All-in-One Ink Tank Printer",
+  "image": "https://www.startech.com.bd/image/cache/catalog/printer/epson/ecotank-l3210/ecotank-l3210-01-500x500.jpg",
+  "description": "The Epson EcoTank L3210 is an all-in-one ink tank printer known for its cost-effective printing solution. It offers printing, scanning, and copying with high efficiency and low running costs.",
+  "price": 14500,
+  "brand": "Epson",
+  "category": "Printer",
+  "ratings": 4,
+  "date": "05/08/2024",
+  "time": "10:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613862e"
+  },
+  "name": "Brother DCP-T220 All-in-One Ink Tank Printer",
+  "image": "https://www.startech.com.bd/image/cache/catalog/printer/brother/dcp-t520w/brother-dcp-t520w-01-500x500.webp",
+  "description": "The Brother DCP-T220 is an affordable all-in-one ink tank printer with high-quality printing, scanning, and copying functions. It offers low-cost printing with easy ink refill system.",
+  "price": 12500,
+  "brand": "Brother",
+  "category": "Printer",
+  "ratings": 4,
+  "date": "15/07/2024",
+  "time": "10:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613862f"
+  },
+  "name": "Kodak Alaris E1035 Document Scanner",
+  "image": "https://www.startech.com.bd/image/cache/catalog/scanner/kodak/e1030/e1030-01-500x500.webp",
+  "description": "The Kodak Alaris E1035 is a fast document scanner designed for office environments. It offers a scanning speed of 35 pages per minute with a resolution of 600 dpi. It’s equipped with reliable paper handling features.",
+  "price": 40000,
+  "brand": "Kodak",
+  "category": "Scanner",
+  "ratings": 4,
+  "date": "15/06/2024",
+  "time": "10:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138630"
+  },
+  "name": "Logitech MK220 Wireless Keyboard and Mouse Combo",
+  "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/logitech/logitech-mk220/logitech-mk220-1-500x500.jpg",
+  "description": "The Logitech MK220 wireless keyboard and mouse combo features a compact design with reliable wireless connectivity. It offers 128-bit AES encryption for the keyboard and a battery life of up to 24 months.",
+  "price": 2150,
+  "brand": "Logitech",
+  "category": "Keyboard",
+  "ratings": 4,
+  "date": "11/08/2024",
+  "time": "11:15AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138631"
+  },
+  "name": "Xiaomi Mi 4C Router",
+  "image": "https://www.startech.com.bd/image/cache/catalog/router/xiaomi/mi-4c/mi-4c-1-500x500.jpg",
+  "description": "The Xiaomi Mi 4C router offers a 2.4 GHz frequency band with speeds up to 300 Mbps. It features 4 high-gain antennas for better coverage and supports up to 64 devices connected simultaneously.",
+  "price": 1450,
+  "brand": "Xiaomi",
+  "category": "Router",
+  "ratings": 4,
+  "date": "12/08/2024",
+  "time": "11:15AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138632"
+  },
+  "name": "Microlab M108BT 2.1 Bluetooth Speaker",
+  "image": "https://www.startech.com.bd/image/cache/catalog/speaker/microlab/m108bt/m108bt-02-500x500.webp",
+  "description": "The Microlab M108BT is a 2.1 channel Bluetooth speaker system with a total power output of 11 watts. It provides a wireless range of up to 10 meters and features an FM radio, USB, and SD card slots for multimedia playback.",
+  "price": 2200,
+  "brand": "Microlab",
+  "category": "Speaker",
+  "ratings": 3,
+  "date": "15/03/2024",
+  "time": "11:15AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138633"
+  },
+  "name": "Lenovo HE05 Wireless Neckband Earphone",
+  "image": "https://www.startech.com.bd/image/cache/catalog/neckband/lenovo/qe07/qe07-01-500x500.webp",
+  "description": "The Lenovo HE05 is a wireless neckband earphone with a 105 mAh battery, offering up to 8 hours of playback time. It is equipped with Bluetooth 5.0 and features a lightweight and ergonomic design for comfort.",
+  "price": 950,
+  "brand": "Lenovo",
+  "category": "Earphone",
+  "ratings": 4,
+  "date": "15/07/2024",
+  "time": "11:15AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138634"
+  },
+  "name": "Samsung 970 EVO Plus 500GB NVMe SSD",
+  "image": "https://www.startech.com.bd/image/cache/catalog/ssd/samsung/evo-970-plus/970-evo-plus-500x500.jpg",
+  "description": "The Samsung 970 EVO Plus is a high-performance NVMe SSD offering read speeds up to 3,500 MB/s and write speeds up to 3,300 MB/s. It is designed for demanding tasks like gaming, content creation, and high-end computing.",
+  "price": 8500,
+  "brand": "Samsung",
+  "category": "SSD",
+  "ratings": 5,
+  "date": "15/01/2024",
+  "time": "11:15AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138635"
+  },
+  "name": "Gigabyte Aorus B550M Elite Motherboard",
+  "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/aorus-b550m-elite/aorus-b550m-elite-500x500.jpg",
+  "description": "The Gigabyte Aorus B550M Elite is a micro-ATX motherboard that supports AMD Ryzen processors. It features dual M.2 slots, PCIe 4.0, and RGB Fusion 2.0 support for customizable lighting effects.",
+  "price": 12500,
+  "brand": "Gigabyte",
+  "category": "Motherboard",
+  "ratings": 5,
+  "date": "15/02/2024",
+  "time": "11:15AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138636"
+  },
+  "name": "Corsair Vengeance LPX 16GB DDR4 3200MHz RAM",
+  "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-16gb-ddr4/16gb-ddr4-500x500.jpg",
+  "description": "The Corsair Vengeance LPX 16GB DDR4 RAM is optimized for high-performance overclocking. It has a low-profile heat spreader made of pure aluminum for faster heat dissipation and supports XMP 2.0 for simple overclocking.",
+  "price": 6500,
+  "brand": "Corsair",
+  "category": "RAM",
+  "ratings": 5,
+  "date": "15/03/2024",
+  "time": "11:15AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138637"
+  },
+  "name": "ASUS TUF Gaming A15 FA506IU Ryzen 7 4800H GTX 1660 Ti 6GB Gaming Laptop",
+  "image": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/tuf-gaming-a15-fa506nf/tuf-gaming-a15-fa506nf-01-500x500.webp",
+  "description": "The ASUS TUF Gaming A15 FA506IU is powered by an AMD Ryzen 7 4800H processor, 16GB RAM, and GTX 1660 Ti 6GB graphics. It features a 15.6-inch FHD display with a 144Hz refresh rate, perfect for gaming and multitasking.",
+  "price": 98500,
+  "brand": "ASUS",
+  "category": "Laptop",
+  "ratings": 5,
+  "date": "15/04/2024",
+  "time": "11:15AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138638"
+  },
+  "name": "MSI GeForce RTX 3060 Gaming X 12GB Graphics Card",
+  "image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/msi/geforce-rtx-3060-gaming-12g/geforce-rtx-3060-gaming-12g-01-500x500.webp",
+  "description": "The MSI GeForce RTX 3060 Gaming X is a high-performance graphics card with 12GB GDDR6 memory, designed for 1080p and 1440p gaming. It features the MSI Twin Frozr 8 cooling system and RGB Mystic Light for customizable lighting.",
+  "price": 45000,
+  "brand": "MSI",
+  "category": "Graphics Card",
+  "ratings": 5,
+  "date": "15/07/2024",
+  "time": "11:15AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138639"
+  },
+  "name": "WD Blue 1TB SATA 2.5 SSD",
+  "image": "https://www.startech.com.bd/image/cache/catalog/HDD/Western%20Digital/WD%20INT%20Blue%201TB-500x500.jpg",
+  "description": "The WD Blue 1TB SATA SSD offers reliable storage with a 2.5-inch form factor and 3D NAND technology. It provides sequential read speeds up to 560MB/s and write speeds up to 530MB/s, making it a solid choice for upgrading laptops and desktops.",
+  "price": 8000,
+  "brand": "WD",
+  "category": "SSD",
+  "ratings": 4,
+  "date": "15/07/2024",
+  "time": "11:15AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613863a"
+  },
+  "name": "Adata XPG SX8200 Pro 512GB NVMe SSD",
+  "image": "https://www.startech.com.bd/image/cache/catalog/ssd/adata/xpg-sx8200/xpg-sx8200-500x500.jpg",
+  "description": "The Adata XPG SX8200 Pro 512GB is a high-performance NVMe SSD offering read speeds up to 3500MB/s and write speeds up to 3000MB/s. It is ideal for gamers, PC enthusiasts, and content creators.",
+  "price": 6900,
+  "brand": "Adata",
+  "category": "SSD",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:30AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613863b"
+  },
+  "name": "Razer DeathAdder Essential Gaming Mouse",
+  "image": "https://www.startech.com.bd/image/cache/catalog/mouse/razer/deathadder-essential-goliathus-pikachu/deathadder-essential-goliathus-pikachu-01-500x500.jpg",
+  "description": "The Razer DeathAdder Essential is a gaming mouse with a 6400 DPI optical sensor. It features a classic ergonomic design and durable mechanical switches, making it a top choice for gamers.",
+  "price": 2250,
+  "brand": "Razer",
+  "category": "Mouse",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:30AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613863c"
+  },
+  "name": "AOC 24B1XHS 23.8 inch Full HD IPS Monitor",
+  "image": "https://www.startech.com.bd/image/cache/catalog/monitor/walton/wd215i09/wd215i09-001-500x500.webp",
+  "description": "The AOC 24B1XHS is a 23.8-inch Full HD monitor with an IPS panel, offering vibrant colors and wide viewing angles. It features a sleek design with a narrow bezel, perfect for multi-monitor setups.",
+  "price": 15000,
+  "brand": "AOC",
+  "category": "Monitor",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:30AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613863d"
+  },
+  "name": "Logitech Z120 Compact USB Stereo Speakers",
+  "image": "https://www.startech.com.bd/image/cache/catalog/Accessories/speaker-and-hometheater/logitech/z120/z120-01-500x500.jpg",
+  "description": "The Logitech Z120 are compact stereo speakers powered via USB. They provide clear sound and are easy to connect to laptops, desktops, or other devices with a 3.5mm audio jack.",
+  "price": 1200,
+  "brand": "Logitech",
+  "category": "Speaker",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:30AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613863e"
+  },
+  "name": "AMD Ryzen 5 5600X Processor",
+  "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/5600x/5600x-001-500x500.jpg",
+  "description": "The AMD Ryzen 5 5600X is a 6-core, 12-thread processor based on the Zen 3 architecture. It offers a base clock of 3.7 GHz and a boost clock of up to 4.6 GHz, making it a strong choice for gaming and productivity tasks.",
+  "price": 20500,
+  "brand": "AMD",
+  "category": "Processor",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:30AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613863f"
+  },
+  "name": "ASUS TUF Gaming K5 RGB Keyboard",
+  "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/asus/tuf-gaming-k1/tuf-gaming-k1-1-500x500.jpg",
+  "description": "The ASUS TUF Gaming K5 is a RGB-backlit keyboard with Mech-Brane switches for a tactile feel. It features spill-resistance, customizable lighting, and durable construction for extended gaming sessions.",
+  "price": 5500,
+  "brand": "ASUS",
+  "category": "Keyboard",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:30AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138640"
+  },
+  "name": "Antec NX292 Mid Tower Gaming Casing",
+  "image": "https://www.startech.com.bd/image/cache/catalog/casing/antec/antec-nx292/antec-nx292-01-500x500.jpg",
+  "description": "The Antec NX292 is a mid-tower gaming case with a mesh front panel for improved airflow. It supports ATX motherboards, has multiple fan mounts, and comes with a tempered glass side panel to showcase your build.",
+  "price": 4500,
+  "brand": "Antec",
+  "category": "Casing",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:30AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138641"
+  },
+  "name": "HyperX Cloud II Wireless Gaming Headset",
+  "image": "https://www.startech.com.bd/image/cache/catalog/headphone/hyperx/cloud-iii/cloud-iii-01-500x500.webp",
+  "description": "The HyperX Cloud II Wireless Gaming Headset offers 7.1 virtual surround sound, a 53mm driver, and a detachable noise-canceling microphone. It provides up to 30 hours of battery life and has a range of up to 20 meters.",
+  "price": 17500,
+  "brand": "HyperX",
+  "category": "Headset",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:30AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138642"
+  },
+  "name": "MSI MPG B550 Gaming Plus Motherboard",
+  "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/mpg-b550-gaming-plus/mpg-b550-gaming-plus-500x500.jpg",
+  "description": "The MSI MPG B550 Gaming Plus is an ATX motherboard that supports AMD Ryzen processors. It features PCIe 4.0, dual M.2 slots with M.2 Shield Frozr, and Mystic Light for customizable RGB lighting.",
+  "price": 15000,
+  "brand": "MSI",
+  "category": "Motherboard",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:30AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138643"
+  },
+  "name": "Corsair Hydro Series H100i RGB Platinum SE Liquid CPU Cooler",
+  "image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/corsair/hydro-h150i/hydro-h150i-500x500.jpg",
+  "description": "The Corsair Hydro Series H100i RGB Platinum SE is a liquid CPU cooler with a 240mm radiator and RGB lighting. It features dual ML120 RGB PWM fans for efficient cooling and customizable lighting effects.",
+  "price": 12500,
+  "brand": "Corsair",
+  "category": "Cooling",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:30AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138644"
+  },
+  "name": "Cooler Master MasterBox Q300L Mid Tower Case",
+  "image": "https://www.startech.com.bd/image/cache/catalog/casing/cooler-master/masterbox-540/masterbox-540-01-500x500.webp",
+  "description": "The Cooler Master MasterBox Q300L is a compact mid-tower case designed for airflow and versatility. It features magnetic dust filters, a modular I/O panel, and supports up to a Micro-ATX motherboard.",
+  "price": 3500,
+  "brand": "Cooler Master",
+  "category": "Casing",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:45AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138645"
+  },
+  "name": "Intel Core i5-10400F 10th Gen Processor",
+  "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/i5-10400/i5-10400-1-500x500.jpg",
+  "description": "The Intel Core i5-10400F is a 10th Gen processor with 6 cores and 12 threads, running at a base clock of 2.9 GHz and a boost clock of up to 4.3 GHz. It offers strong multi-core performance for gaming and multitasking.",
+  "price": 12500,
+  "brand": "Intel",
+  "category": "Processor",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:45AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138646"
+  },
+  "name": "Gigabyte AORUS RGB M.2 NVMe SSD 512GB",
+  "image": "https://www.startech.com.bd/image/cache/catalog/ssd/gigabyte/512gb/gigabyte-m2-ssd-512-gb/gigabyte-m2-ssd-512-gb-500x500.jpg",
+  "description": "The Gigabyte AORUS RGB M.2 NVMe SSD is a 512GB storage solution that features RGB Fusion 2.0 for customizable lighting. It offers read speeds up to 3480 MB/s and write speeds up to 2000 MB/s.",
+  "price": 9500,
+  "brand": "Gigabyte",
+  "category": "SSD",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:45AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138647"
+  },
+  "name": "HP V24i 23.8 FHD IPS Monitor",
+  "image": "https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/v20/v20-500x500.jpg",
+  "description": "The HP V24i is a 23.8-inch Full HD monitor with an IPS panel, offering wide viewing angles and accurate colors. It features a sleek design and a low blue light mode for comfortable viewing over long periods.",
+  "price": 14000,
+  "brand": "HP",
+  "category": "Monitor",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:45AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138648"
+  },
+  "name": "Logitech G502 HERO High Performance Gaming Mouse",
+  "image": "https://www.startech.com.bd/image/cache/catalog/mouse/logitech/g502-hero/g502-hero-1-500x500.jpg",
+  "description": "The Logitech G502 HERO is a high-performance gaming mouse with a HERO 25K sensor, offering up to 25,600 DPI. It features 11 customizable buttons, adjustable weights, and RGB lighting.",
+  "price": 5000,
+  "brand": "Logitech",
+  "category": "Mouse",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:45AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138649"
+  },
+  "name": "Asus ROG Strix B550-F Gaming Motherboard",
+  "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/rog-strix-z790-e-gaming-wifi-ii/rog-strix-z790-e-gaming-wifi-ii-01-500x500.webp",
+  "description": "The Asus ROG Strix B550-F Gaming motherboard supports AMD Ryzen processors and features PCIe 4.0, dual M.2 slots, and Aura Sync RGB lighting. It is designed for gamers and PC enthusiasts.",
+  "price": 18000,
+  "brand": "Asus",
+  "category": "Motherboard",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:45AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613864a"
+  },
+  "name": "HyperX Alloy FPS Pro Mechanical Gaming Keyboard",
+  "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/hyperx/alloy-core/alloy-core-01-500x500.jpg",
+  "description": "The HyperX Alloy FPS Pro is a tenkeyless mechanical gaming keyboard with Cherry MX switches. It features a compact design for more desk space, red LED backlighting, and a detachable cable.",
+  "price": 7000,
+  "brand": "HyperX",
+  "category": "Keyboard",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:45AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613864b"
+  },
+  "name": "TP-Link Archer C6 Dual Band Router",
+  "image": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-c54/archer-c54-01-500x500.jpg",
+  "description": "The TP-Link Archer C6 is a dual-band router that offers speeds up to 1200 Mbps and supports MU-MIMO technology. It provides stable Wi-Fi coverage and is ideal for HD streaming and online gaming.",
+  "price": 3500,
+  "brand": "TP-Link",
+  "category": "Router",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:45AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613864c"
+  },
+  "name": "Dell S2421HN 24 Full HD IPS Monitor",
+  "image": "https://www.startech.com.bd/image/cache/catalog/monitor/dell/s2421hn/s2421hn-1-500x500.jpg",
+  "description": "The Dell S2421HN is a 24-inch Full HD monitor with an IPS panel, offering excellent color accuracy and wide viewing angles. It features a sleek design with ultra-thin bezels and supports AMD FreeSync technology.",
+  "price": 17500,
+  "brand": "Dell",
+  "category": "Monitor",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:45AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613864d"
+  },
+  "name": "Asus TUF Gaming VG279Q1R 27 144Hz Gaming Monitor",
+  "image": "https://www.startech.com.bd/image/cache/catalog/monitor/asus/tuf-gaming-vg249ql3a/tuf-gaming-vg249ql3a-01-500x500.webp",
+  "description": "The Asus TUF Gaming VG279Q1R is a 27-inch gaming monitor with a 144Hz refresh rate and 1ms response time. It features an IPS panel with Adaptive-Sync (FreeSync) technology, providing smooth gameplay and vibrant colors.",
+  "price": 29000,
+  "brand": "Asus",
+  "category": "Monitor",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:45AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613864e"
+  },
+  "name": "Kingston A400 240GB SSD",
+  "image": "https://www.startech.com.bd/image/cache/catalog/ssd/kingston/a400-m2-240/kingston-a400-240gb-m-2-2280-ssd-01-500x500.jpg",
+  "description": "The Kingston A400 240GB SSD offers faster boot-up, loading, and file transfers with read speeds of up to 500MB/s and write speeds of up to 350MB/s. It is ideal for upgrading your desktop or laptop.",
+  "price": 2700,
+  "brand": "Kingston",
+  "category": "SSD",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a4613864f"
+  },
+  "name": "Corsair Vengeance LPX 8GB DDR4 3200MHz RAM",
+  "image": "https://www.startech.com.bd/image/cache/catalog/RAM/VENG_LPX_BLK_01-500x500.png",
+  "description": "The Corsair Vengeance LPX 8GB DDR4 3200MHz RAM is designed for high-performance overclocking. It features a heat spreader for faster heat dissipation and stable performance.",
+  "price": 3200,
+  "brand": "Corsair",
+  "category": "RAM",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138650"
+  },
+  "name": "MSI GeForce GTX 1660 Super Ventus XS OC 6GB Graphics Card",
+  "image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/msi/geforce-gtx-1650-d6-ventus-xs-ocv3/geforce-gtx-1650-d6-ventus-xs-ocv3-01-500x500.webp",
+  "description": "The MSI GeForce GTX 1660 Super Ventus XS OC 6GB is a mid-range graphics card offering excellent performance for 1080p gaming. It features a custom cooling solution with dual fans for efficient heat dissipation.",
+  "price": 28000,
+  "brand": "MSI",
+  "category": "Graphics Card",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138651"
+  },
+  "name": "Asus TUF Gaming B550M-PLUS Wi-Fi II Motherboard",
+  "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/tuf-gaming-b760m-e-d4/tuf-gaming-b760m-e-d4-01-500x500.webp",
+  "description": "The Asus TUF Gaming B550M-PLUS Wi-Fi II is a micro-ATX motherboard supporting AMD Ryzen processors. It features PCIe 4.0, Wi-Fi 6, and military-grade components for durability.",
+  "price": 16000,
+  "brand": "Asus",
+  "category": "Motherboard",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138652"
+  },
+  "name": "Deepcool GAMMAXX 400 V2 RGB CPU Air Cooler",
+  "image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag400-wh-argb/ag400-wh-argb-01-500x500.webp",
+  "description": "The Deepcool GAMMAXX 400 V2 is an RGB CPU air cooler with a 120mm fan and four heat pipes. It provides efficient cooling with vibrant lighting effects, suitable for gaming builds.",
+  "price": 2500,
+  "brand": "Deepcool",
+  "category": "Cooling",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138653"
+  },
+  "name": "Samsung 860 EVO 500GB SSD",
+  "image": "https://www.startech.com.bd/image/cache/catalog/ssd/samsung/evo-970-plus/970-evo-plus-500x500.jpg",
+  "description": "The Samsung 860 EVO 500GB SSD offers reliable storage with sequential read speeds up to 550MB/s and write speeds up to 520MB/s. It is designed for mainstream PCs and laptops.",
+  "price": 8500,
+  "brand": "Samsung",
+  "category": "SSD",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138654"
+  },
+  "name": "ASUS ROG Strix Impact II RGB Gaming Mouse",
+  "image": "https://www.startech.com.bd/image/cache/catalog/mouse/asus/p508-rog-strix-carry/p508-rog-strix-carry-500x500.jpg",
+  "description": "The ASUS ROG Strix Impact II is a lightweight RGB gaming mouse featuring a 6200 DPI optical sensor and a pivoted button mechanism. It is designed for esports gamers who need precise control.",
+  "price": 3500,
+  "brand": "Asus",
+  "category": "Mouse",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138655"
+  },
+  "name": "Gigabyte Z390 AORUS PRO Wi-Fi Motherboard",
+  "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/aorus-b550m-elite/aorus-b550m-elite-500x500.jpg",
+  "description": "The Gigabyte Z390 AORUS PRO Wi-Fi is an ATX motherboard supporting 8th and 9th Gen Intel Core processors. It features PCIe Gen3 x4 M.2, USB 3.1 Gen2, and RGB Fusion 2.0.",
+  "price": 22000,
+  "brand": "Gigabyte",
+  "category": "Motherboard",
+  "ratings": 5,
+  "date": "15/08/2024",
+  "time": "11:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138656"
+  },
+  "name": "Dell Inspiron 15 3000 Core i3 10th Gen Laptop",
+  "image": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron-3530/inspiron-3530-01-500x500.webp",
+  "description": "The Dell Inspiron 15 3000 is a budget-friendly laptop featuring a 10th Gen Intel Core i3 processor, 4GB RAM, and a 1TB HDD. It offers solid performance for everyday tasks.",
+  "price": 42000,
+  "brand": "Dell",
+  "category": "Laptop",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:55AM"
+},
+{
+  "_id": {
+    "$oid": "66bdc67ef448323a46138657"
+  },
+  "name": "ASRock B450M Steel Legend Motherboard",
+  "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asrock/b450m-hdv-r4/b450m-hdv-r4-500x500.jpg",
+  "description": "The ASRock B450M Steel Legend is a micro-ATX motherboard that supports AMD Ryzen processors. It features a durable design with RGB lighting and a variety of connectivity options.",
+  "price": 10500,
+  "brand": "ASRock",
+  "category": "Motherboard",
+  "ratings": 4,
+  "date": "15/08/2024",
+  "time": "11:55AM"
+}
+]

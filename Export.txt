@@ -1,0 +1,3 @@
+------- Export Data from Mongodb ------------
+Note: Replace ID & Pass
+mongoexport --uri mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.q3baw43.mongodb.net/eddoxhubDB --collection products.json --type json --out products.json
