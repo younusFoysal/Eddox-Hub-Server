@@ -18,6 +18,12 @@ It manages product data, implements user authentication, and supports various fu
 searching, filtering, and sorting of products. The server is designed to handle multiple API requests efficiently, 
 ensuring smooth data retrieval and interaction with the database.
 
-
+## Features
+- **MERN Stack Integration:** Backend built with Node.js, Express.js, and MongoDB.
+- **API Development:** Handles product data management operations.
+- **Pagination:** Efficient loading and navigation through products.
+- **Search and Filtering:** Allows searching and filtering products by various criteria.
+- **Sorting:** Products can be sorted by price and date added.
+- **Authentication:** Supports Firebase-based Google and email/password authentication.
 
 
