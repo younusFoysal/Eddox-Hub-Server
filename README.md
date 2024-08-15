@@ -27,3 +27,14 @@ ensuring smooth data retrieval and interaction with the database.
 - **Authentication:** Supports Firebase-based Google and email/password authentication.
 
 
+## Technologies Used
+```
+node
+cookie-parser
+cors
+dotenv
+express
+jsonwebtoken
+mongodb
+nodemon
+```
